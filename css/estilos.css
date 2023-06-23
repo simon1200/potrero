@@ -1,13 +1,24 @@
+@font-face {font-family: "titulo";
+src: url("../fuentes/titulo.TTF")
+format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&display=swap');
+
+
 *{margin: 0px;
 padding: 0px}
 body {background-color: #efab54}
-header {height: 100px;
-width: 100%;text-decoration: underline;
+header {vh:100vw  ;text-decoration: underline;
 ;
 color:black;
-padding: 0px;
-line}
-.ingredientes {text-decoration: underline;}
+display: flex;}
+
+.ingredientes {text-decoration: underline;  }
 .preparacion {text-decoration: underline;}
 .tituloprincipal{display: flex;justify-content: center;
-height: 70px}
+height: 70px;
+font-family: "titulo";}
+
+
+.article {font-family: 'Dancing Script', cursive;}
+.pretzel2 {:100vh}
