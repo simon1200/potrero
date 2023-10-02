@@ -32,3 +32,9 @@ align-items: flex-end;}
 .cocinero{height: 120px;width: 120px;display: flex;}
 .redes2{display: flex;justify-content: flex-end;align-items: flex-end;
 justify-content:space-between;}
+
+
+
+
+.contenedortar {display: flex;
+justify-content: space-between;}
